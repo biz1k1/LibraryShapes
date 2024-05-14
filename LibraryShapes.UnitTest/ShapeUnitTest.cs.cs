@@ -63,7 +63,7 @@ namespace LibraryShapes.UnitTest
         // где высчитывается большая сторона и при этом считается теорема пифагора) 
         [Theory]
         [InlineData(2, 2, 2)]
-        public void CheckRightTriangle_return_true(double aSide, double bSide, double cSide)
+        public void CheckRightTriangle_return_true_sucess(double aSide, double bSide, double cSide)
         {
             //arrange 
             Triangle triangle = new Triangle(aSide,bSide,cSide);
